@@ -1,0 +1,24 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+::-webkit-scrollbar {
+  @apply transition-all w-2;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eee;
+  @apply rounded;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  @apply rounded;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
