@@ -5,6 +5,7 @@ import MainPage from "./components/MainPage";
 import { MainContextProvider } from "./MainContext";
 import FilmDetail from "./components/FilmDetail";
 import TopRatedFilm from "./components/TopRatedFilm";
+import About from "./components/About";
 const App = () => {
   return (
     <Router>
@@ -14,6 +15,7 @@ const App = () => {
           <Route component={MainPage} path="/" exact />
           <Route component={FilmDetail} path="/film/:id" />
           <Route component={TopRatedFilm} path="/topfilms" />
+          <Route component={About} path="/about" />
         </Switch>
       </MainContextProvider>
     </Router>

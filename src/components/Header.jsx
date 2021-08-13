@@ -65,7 +65,7 @@ const Header = () => {
       </div>
       <ul
         className={`absolute top-14 lg:static transition-all lg:flex-row flex-col lg:bg-transparent lg:leading-none leading-10 left-0 w-full h-full z-50 bg-[#333] flex items-center justify-center lg:ml-20  ${
-          mobileMenu ? "scale-100" : "scale-0"
+          mobileMenu ? "scale-100" : "lg:scale-100 scale-0"
         }`}
       >
         <NavLink
